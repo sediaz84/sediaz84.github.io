@@ -1,0 +1,277 @@
+
+/* limpiamos la lectura css predeterminada del navegador */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:   #f2f3f4  ;
+    color: black;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;    
+}
+
+.float img {
+    width: 60px;
+    height: 60px;
+}
+
+a {
+    color:  #34495e ;
+    text-decoration: none;
+}
+
+/* ul {
+    list-style: none;
+} */
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.header-nav {
+    border-bottom: 2px;
+}
+
+/*Navigation*/
+.nav-main {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    padding: 60px 0;
+}
+
+.nav-logo {
+    width: 350px;
+    height: 100px;
+}
+
+/*nav left*/
+
+.nav-main ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-main ul li {
+    padding: 10px;
+    border-bottom: 2px;
+}
+
+.nav-main ul.nav-menu {
+    /* flex: 1; */
+    margin-left: 20px;
+}
+
+.build {
+    width: 100%;
+    height: 400px;
+    padding-top: 20px;
+}
+
+
+
+.image-build {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/*Nosotros*/
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.nosotros h1 {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+}
+
+.nosotros-parrafo {
+    width: 90%;   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.nosotros-parrafo p {
+    font-size: 20px;
+    line-height: 2;
+}
+
+/*Servicios*/
+
+.servicios {
+    display: flex;
+    flex-direction: column;
+}
+
+.servicios h1 {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.servicios-background {
+    background-color:  #d6eaf8;
+    height: 450px;
+}
+
+.servicios-tipos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;              
+    margin-left: auto;    
+    margin-top: 50px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.servicios-individual-a {
+    display: flex;    
+    align-items: center;
+       
+}
+
+.servicios-individual-a h3{
+    margin-left: 40px;
+}
+
+.servicios-individual-b {
+    display: flex;
+    font-size: 15px;
+    line-height: 1.5;    
+    list-style: circle; 
+    margin-top: 10px;   
+}
+
+.servicios-individual-b ul {
+    margin-left: 20px;
+}
+
+.servicios-tipos img {    
+    height: 40px;
+    padding-right: 15px;    
+}
+
+/*Contacto*/
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    height: 600px;      
+}
+
+.contacto h1 {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.inputs {
+    background-color:  #34495e ;
+    height: 500px;
+}
+
+.input-group {    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+    width: 80%;
+    margin: auto;
+    color:  #f39c12
+    ;  
+}
+
+/* .input-group form button {
+    background: #B70E21;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+} */
+
+.input-group form input,
+.input-group form textarea {
+    width: auto;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #d63031;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #f39c12;
+    
+}
+
+.input-group-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    width: 600px;    
+    gap: 10px;
+}
+
+
+.single-input {
+    display: flex;
+    flex-direction: column;   
+}
+
+.input-group form button {
+    background: #B70E21;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    width: 100%;
+}
+
+.input-group form button:hover,
+.input-group form button:focus {
+    background: #d63031;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+.datos-contacto {
+    background-color:  #17202a;
+    color: #f39c12;
+    border: 2px solid black;
+    height: 150px;
+    width: auto;
+}
+
+.datos-contacto-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    /* border: 2px solid white;    */
+    height: 100px;
+}
+
+.datos-contacto-lista p {
+    font-size: 12px;
+    line-height: 2;
+}
