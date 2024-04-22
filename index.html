@@ -19,7 +19,7 @@
     <header class="header-nav">
       <nav class="nav-main">
         <img
-          src="img/cialym logo chicho con letras.png"
+          src="img/cialym logo chicho con letras 350x100.png"
           alt="Cialym Logo"
           class="nav-logo"
         />
@@ -42,7 +42,7 @@
 
     <div class="build">
       <img
-        src="img/rascacielos-oficinas-distrito-negocios.jpg"
+        src="img/rascacielos-oficinas-distrito-negocios 2000x1333.png"
         alt="Imgen build"
         class="image-build"
       />
@@ -52,14 +52,9 @@
       <h1>Nosotros</h1>
       <div class="nosotros-parrafo">
         <p>
-          Cialym es una empresa moderna, con experiencia, que centra su
-          actividad en brindarle servicios de soporte para su empresa, su
-          comercio o su hogar. La actitud para resolver los problemas de
-          nuestros clientes a diario, el privilegio de poder generar un trato
-          personal y próximo y la experiencia acumulada, hacen posible que
-          seamos más que una simple empresa de servicios, para convertirnos en
-          un eficaz colaborador para resolver integramente todas sus necesidades
-          en lo que se refiere al mantenimiento de su empresa.
+          Cialym SRL es una empresa de servicios, que centra su actividad en brindar soporte de mantenimiento edilicio para su empresa, comercio u hogar.
+          Nuestra actitud para la resolución de problemas, nuestro trato personalizado y la experiencia acumulada en todos estos años de estar en el mercado, 
+          nos llevan a convertirnos en un eficaz colaborar para todos nuestros clientes.
         </p>
       </div>
     </div>
@@ -69,7 +64,8 @@
 
       <div class="servicios-background">
         <div class="servicios-tipos">
-          <div>
+
+          <div class="servicios-individual">
             <div class="servicios-individual-a">
               <img src="img/energia-electrica.png" alt="imagen energia" />
               <h3>Electricidad</h3>
@@ -85,7 +81,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="servicios-individual">
             <div class="servicios-individual-a">
               <img src="img/construccion.png" alt="imgen construccion" />
               <h3>Albañileria</h3>
@@ -100,7 +96,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="servicios-individual">
             <div class="servicios-individual-a">
               <img src="img/rodillo-de-pintura.png" alt="imagen rodillo" />
               <h3>Pintura</h3>
@@ -115,7 +111,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="servicios-individual">
             <div class="servicios-individual-a">
               <img
                 src="img/aire-acondicionado.png"
@@ -134,7 +130,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="servicios-individual">
             <div class="servicios-individual-a">
               <img src="img/agua.png" alt="imagen agua" />
               <h3>Plomería</h3>
@@ -150,7 +146,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="servicios-individual">
             <div class="servicios-individual-a">
               <img src="img/metalurgia.png" alt="imagen metalurgia" />
               <h3>Herrería</h3>
@@ -173,26 +169,26 @@
 
       <div class="inputs"> 
             <div  class="input-group">  
-          <form action="https://formsubmit.co/sediaz84@gmail.com" method="POST">
+          <form action="form.php" method="POST">
               <div class="input-group-top">
             <div class="single-input">
               <label for="empresa">Empresa</label>
-              <input type="text" name="empresa" id="empresa" />
+              <input type="text" name="empresa" id="empresa"  required/>
             </div>
 
             <div class="single-input">
               <label for="contacto">Contacto</label>
-              <input type="text" name="contacto" id="contacto" />
+              <input type="text" name="contacto" id="contacto" required/>
             </div>
 
             <div class="single-input">
               <label for="telefono">Telefono</label>
-              <input type="tel" name="telefono" id="telefono" />
+              <input type="tel" name="telefono" id="telefono" required/>
             </div>
 
             <div class="single-input">
               <label for="email">Email</label>
-              <input type="email" name="email" id="email" />
+              <input type="email" name="email" id="email" required/>
             </div>
         </div>
         <div class="input-group-botton">
@@ -203,11 +199,12 @@
                 name="mensaje"
                 id="mensaje"
                 rows="3"
+                required
                 ></textarea>
             </div>
             
             <div>
-                <button type="submit" value="Enviar">Enviar</button>
+                <button type="submit" value="enviar">Enviar</button>
             </div>
         </div>       
     </form>

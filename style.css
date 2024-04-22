@@ -67,14 +67,12 @@ a {
 }
 
 .nav-main ul li {
-    padding: 10px;
-    border-bottom: 2px;
+    padding: 10px;   
 }
 
-.nav-main ul.nav-menu {
-    /* flex: 1; */
+/* .nav-main ul.nav-menu {
     margin-left: 20px;
-}
+} */
 
 .build {
     width: 100%;
@@ -119,10 +117,10 @@ a {
 
 /*Servicios*/
 
-.servicios {
+/* .servicios {
     display: flex;
     flex-direction: column;
-}
+} */
 
 .servicios h1 {
     display: flex;
@@ -244,7 +242,7 @@ a {
     text-transform: uppercase;
     padding: 1em;
     width: 100%;
-}
+}    
 
 .input-group form button:hover,
 .input-group form button:focus {
@@ -274,4 +272,366 @@ a {
 .datos-contacto-lista p {
     font-size: 12px;
     line-height: 2;
+}
+
+/*celular*/
+
+@media (max-width: 500px) {
+    /* body {
+        background-color: #B70E21;
+    } */
+
+    /*Navigation*/
+.nav-main {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    height: 60px;
+    padding: 60px 0;
+    margin-bottom: 100px;
+}
+
+.nav-logo {
+    width: 350px;
+    height: 100px;
+}
+
+/*nav left*/
+
+.nav-main ul {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.nav-main ul li {
+    padding: 10px;
+    font-size: 22px;
+
+}
+
+/*Nosotros*/
+
+.nosotros h1 {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.nosotros-parrafo {
+    width: 90%;   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+/*Servicios*/
+
+.servicios {
+    display: flex;
+    flex-direction: column;
+}
+
+.servicios h1 {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.servicios-background {
+    background-color:  #d6eaf8;
+    height: 1150px;
+}
+
+.servicios-tipos {
+    display: flex;
+    flex-direction: column;
+    width: 90%;              
+    margin-left: auto;    
+    margin-top: 30px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.servicios-individual{
+    margin-top: 10px;
+}
+
+/*Contacto*/
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    /* height: 600px;       */
+}
+
+.contacto h1 {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.inputs {
+    background-color:  #34495e ;
+    height: 1150px;
+    width: 100%;
+}
+
+.input-group {    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly;     */
+    /* width: 80%; */
+    /* margin: auto; */
+    color:  #f39c12
+    ;  
+}
+
+.input-group form input,
+.input-group form textarea {
+    width: auto;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #d63031;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #f39c12;
+    width: 100%;
+    
+}
+
+.input-group-top {
+    display: grid;
+    grid-template-columns: 1fr;    
+    margin-top: 50px;
+    width: 100%;    
+    gap: 10px;
+}
+
+
+.single-input {
+    display: flex;
+    flex-direction: column;   
+}
+
+.input-group form button {
+    background: #B70E21;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    width: 100%;
+    margin-bottom: 20px;
+}    
+
+.input-group form button:hover,
+.input-group form button:focus {
+    background: #d63031;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+.datos-contacto {
+    background-color:  #17202a;
+    color: #f39c12;    
+    height: 150px;
+    width: auto;
+    margin-top: 100px;
+}
+
+.datos-contacto-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    /* border: 2px solid white;    */
+    height: 100px;
+}
+
+}
+
+@media (max-width: 420px) {
+    /* body {
+        background-color: #B70E21;
+    } */
+
+    /*Navigation*/
+.nav-main {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    height: 60px;
+    padding: 60px 0;
+    margin-bottom: 100px;
+}
+
+.nav-logo {
+    width: 350px;
+    height: 100px;
+}
+
+/*nav left*/
+
+.nav-main ul {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.nav-main ul li {
+    padding: 10px;
+    font-size: 22px;
+
+}
+
+/*Nosotros*/
+
+.nosotros h1 {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.nosotros-parrafo {
+    width: 90%;   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+/*Servicios*/
+
+.servicios {
+    display: flex;
+    flex-direction: column;
+}
+
+.servicios h1 {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.servicios-background {
+    background-color:  #d6eaf8;
+    height: 1150px;
+}
+
+.servicios-tipos {
+    display: flex;
+    flex-direction: column;
+    width: 90%;              
+    margin-left: auto;    
+    margin-top: 30px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.servicios-individual{
+    margin-top: 10px;
+}
+
+/*Contacto*/
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    /* height: 600px;       */
+}
+
+.contacto h1 {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.inputs {
+    background-color:  #34495e ;
+    height: 1150px;
+    width: 100%;
+}
+
+.input-group {    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly;     */
+    /* width: 80%; */
+    /* margin: auto; */
+    color:  #f39c12
+    ;  
+}
+
+.input-group form input,
+.input-group form textarea {
+    width: auto;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #d63031;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #f39c12;
+    width: 100%;
+    
+}
+
+.input-group-top {
+    display: grid;
+    grid-template-columns: 1fr;    
+    margin-top: 50px;
+    width: 100%;    
+    gap: 10px;
+}
+
+
+.single-input {
+    display: flex;
+    flex-direction: column;   
+}
+
+.input-group form button {
+    background: #B70E21;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    width: 100%;
+    margin-bottom: 20px;
+}    
+
+.input-group form button:hover,
+.input-group form button:focus {
+    background: #d63031;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+.datos-contacto {
+    background-color:  #17202a;
+    color: #f39c12;    
+    height: 150px;
+    width: auto;
+    margin-top: 100px;
+}
+
+.datos-contacto-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    /* border: 2px solid white;    */
+    height: 100px;
+}
+
 }
