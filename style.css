@@ -265,7 +265,6 @@ a {
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
-    /* border: 2px solid white;    */
     height: 100px;
 }
 
@@ -290,7 +289,7 @@ a {
     align-items: center;
     height: 60px;
     padding: 60px 0;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .nav-logo {
@@ -470,7 +469,7 @@ a {
     align-items: center;
     height: 60px;
     padding: 60px 0;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .nav-logo {
@@ -629,8 +628,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
-    /* border: 2px solid white;    */
+    margin-top: 50px;    
     height: 100px;
 }
 
